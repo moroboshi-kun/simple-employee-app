@@ -1,0 +1,4 @@
+## ----- .gitignore ----- ##
+
+# node module directoty
+/server/node_modules/*

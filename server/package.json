@@ -1,0 +1,16 @@
+{
+  "name": "employee-app",
+  "version": "1.0.0",
+  "description": "A simple employee database app using Express and MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "Mike Furtado",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.4",
+    "uuid": "^10.0.0"
+  }
+}
