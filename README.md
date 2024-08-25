@@ -4,7 +4,7 @@
 
 To create a new employee record use:
 
-    curl -X POST http://localhost:3000/api/employees \
+    curl -X POST http://localhost:3080/api/employees \
     -H "Content-Type: application/json" \
     -d '{"firstName": "John", "lastName": "Doe"}'
     
