@@ -1,9 +1,13 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const path = require('path');
 const employeeRoutes = require('./routes/employee');
 
 const app = express();
 app.use(express.json());
+
+// Serve static files from the "public" directory
+app.use(express.static(path.join(__dirname, 'public')));
 
 // MongoDB connection
 mongoose.connect('mongodb://mongo:27017/employees', {
